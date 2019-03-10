@@ -14,8 +14,8 @@ iris = datasets.load_iris()
 
 # metric
 def score(ypred, ytrue):
-    assert(ypred.shape==ytrue.shape)
     ypred = np.array(ypred)
     ytrue = np.array(ytrue)
+    assert(ypred.shape==ytrue.shape)
     return (ypred==ytrue).sum() / ypred.shape[0]
 
