@@ -1,3 +1,5 @@
+### Machine learning implementation using numpy
+
 ### TODO
 * knn
   - knn (DONE)
