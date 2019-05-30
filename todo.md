@@ -6,5 +6,6 @@
   - entropy (DONE)
   - gini
 * NN
+  - MLP (DONE)
 * EM
 * RF
